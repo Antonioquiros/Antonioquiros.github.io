@@ -1,6 +1,11 @@
 *{
     padding: 0;
     margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    font-style:oblique;
+}
+html{
+    scroll-behavior: smooth;
 }
 .menu{
     background-color:forestgreen;
@@ -11,7 +16,6 @@
     text-align: center;
     font-size: 130%;
     color: black;
-    
 }
 
 .menu a{
@@ -41,15 +45,16 @@
     
 }
 .texto{
-    margin-left: 50%;
+    margin-left: 65%;
     margin-right: 15%;
+    margin-bottom: -11%;
     padding-top: 14.9%;
     color: forestgreen;
 }
 .aboutme{
     text-align: center;
     padding-top: 5%;
-    background-color: black;
+    background: linear-gradient(135deg, forestgreen 0% 15%, black 15% 70%, forestgreen 70%);
 }
 h1{
     color: forestgreen;
@@ -74,4 +79,8 @@ h1{
 }
 .especialidades{
 text-align: center;
+color: forestgreen;
+padding-top: 4%;
+font-size: 150%;
+background-color: black;
 }
