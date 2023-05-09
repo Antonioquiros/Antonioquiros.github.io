@@ -49,7 +49,7 @@ html{
     margin-right: 15%;
     margin-bottom: -11%;
     padding-top: 14.9%;
-    color: #94fc13;
+    color: forestgreen;
     font-weight: bold;
 }
 .aboutme{
@@ -96,6 +96,7 @@ text-align: center;
 color: #94fc13;
 padding-top: 4%;
 font-size: 150%;
+font-weight: bolder;
 }
 .h1esp{
     color: #94fc13;
@@ -106,7 +107,7 @@ font-size: 150%;
     display: flex;
     padding-top: 4%;
     justify-content: space-around;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
 }
 .campo{
     width: 70%;
@@ -118,6 +119,10 @@ font-size: 150%;
 }
 .flappy{
     margin-left: 8%;
+}
+
+.fotofla{
+    height: 85.7%;
 }
 .nombrefooter{
     text-align: center;
@@ -154,6 +159,36 @@ footer{
 .textrrss{
     padding-bottom: 15%;
 }
+.rrss a{
+    color: inherit;
+}
+.fa-instagram:hover{
+    animation: bounce 0.5s;
+    color:salmon;
+}
+.fa-twitter:hover{
+    animation: bounce 0.5s;
+    color:dodgerblue;
+}
+.fa-twitch:hover{
+    animation: bounce 0.5s;
+    color:purple;
+}
+.volver{
+    text-decoration: none;
+    color: forestgreen;
+    padding-top: 2%;
+}
+.iconos{
+    padding-top: 2%;
+    font-size: 150%;
+}
+.c{
+    height: 50px;
+    width: 50px;
+    padding-top: 5%;
+}
+
 @-webkit-keyframes gradient {
     0% {
       background-position: 0% 50%;
@@ -187,3 +222,20 @@ footer{
       background-position: 0% 50%;
     }
 }
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    75% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
