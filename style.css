@@ -145,6 +145,26 @@ h1 {
   height: 50%;
   width: 50%;
 }
+
+.c {
+  height: 50px;
+  width: 50px;
+  padding-top: 5%;
+}
+
+@media screen and (min-width: 800px) {
+  .especialidades{
+    padding-bottom: 0%;
+    padding-top: 0%;
+  }
+
+  .imagenes{
+    padding-top:0%;
+
+    
+  }
+}
+
 .nombrefooter {
   text-align: center;
   padding-top: 10%;
@@ -189,6 +209,29 @@ footer {
 .rrss a {
   color: inherit;
 }
+
+@media screen and (min-width: 700px) {
+
+  .futer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    gap: 1%;
+    margin-left: 0%;
+    margin-right: 0.5%;
+  }
+
+  .textoder {
+    padding-top: 3%;
+    font-size: 120%;
+    margin-left: 0.5%;
+    margin-right: 0%;
+    padding-left: 0.5%;
+  }
+}
+
 .fa-instagram:hover {
   animation: bounce 0.5s;
   color: salmon;
@@ -217,11 +260,7 @@ footer {
   padding-top: 2%;
   font-size: 150%;
 }
-.c {
-  height: 50px;
-  width: 50px;
-  padding-top: 5%;
-}
+
 form {
   display: flex;
   flex-direction: column;
