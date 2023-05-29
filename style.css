@@ -29,7 +29,15 @@ html {
   color: forestgreen;
   cursor: pointer;
 }
-
+@media screen and (max-width:700px){
+  .menu{
+    display: flex;
+    flex-direction: column;
+  }
+  .menu a{
+    padding: 1%;
+  }
+}
 .fondo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("IMG_8188.JPG");
@@ -117,14 +125,15 @@ h1 {
 .imagenes {
   display: flex;
   flex-direction: column;
-  padding-top: 4%;
+  padding-top: 0;
   justify-content: center;
   padding-bottom: 7%;
   padding-right: 5%;
 }
 
-#paginaFertilizantes{
+#paginaFertilizantes {
   padding-left: 7%;
+  margin-top: -5%;
 }
 
 .campo {
@@ -139,6 +148,7 @@ h1 {
 }
 .flappy {
   margin-left: 8%;
+  padding-top: 2%;
 }
 
 .fotofla {
@@ -153,15 +163,24 @@ h1 {
 }
 
 @media screen and (min-width: 800px) {
-  .especialidades{
+  .especialidades {
     padding-bottom: 0%;
     padding-top: 0%;
   }
+  .flappy{
+    padding-bottom: 0%;
+  }
 
-  .imagenes{
-    padding-top:0%;
+  .imagenes {
+    padding-top: 0%;
+  }
+}
 
-    
+@media screen and (min-width: 830px) {
+
+  .imagenes {
+    margin-bottom: 3%;
+   
   }
 }
 
@@ -178,23 +197,22 @@ footer {
   padding-bottom: 2%;
 }
 
-.piePagina{
-
+.piePagina {
 }
 
 .futer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
+  margin-left: -5%;
 }
 .rrss {
   text-align: center;
- width: 100%;
- margin: 2%;
+  width: 100%;
+  margin: 2%;
 }
 .foto {
-
+ 
 }
 .textoder {
   padding-top: 3%;
@@ -211,7 +229,6 @@ footer {
 }
 
 @media screen and (min-width: 700px) {
-
   .futer {
     display: flex;
     flex-wrap: nowrap;
@@ -230,6 +247,24 @@ footer {
     margin-right: 0%;
     padding-left: 0.5%;
   }
+}
+
+@media screen and (min-width: 900px) {
+  .futer {
+    justify-content: space-between;
+
+  }
+#fotoLogo{
+padding-right: 5%;
+
+}
+  .textoder {
+   padding-left: 5%;
+  }
+  .rrss{
+    margin-left: -3%;
+  }
+
 }
 
 .fa-instagram:hover {
